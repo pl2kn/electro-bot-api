@@ -9,5 +9,4 @@ public class ElectroBotApiApplication {
   public static void main(String[] args) {
     SpringApplication.run(ElectroBotApiApplication.class, args);
   }
-
 }
