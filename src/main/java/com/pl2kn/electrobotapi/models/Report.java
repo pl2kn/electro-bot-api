@@ -34,13 +34,7 @@ public class Report {
   private Long resolveTimestamp;
 
   public Report() {
-  }
-
-  public Report(Double latitude, Double longitude, String imageUrl, Long reportDate) {
-    this.latitude = latitude;
-    this.longitude = longitude;
-    this.imageUrl = imageUrl;
-    this.reportTimestamp = reportDate;
+    this.reportTimestamp = System.currentTimeMillis();
   }
 
   public Long getId() {
