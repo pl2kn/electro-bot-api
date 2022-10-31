@@ -4,6 +4,7 @@ import com.pl2kn.electrobotapi.exceptions.ReportNotFoundException;
 import com.pl2kn.electrobotapi.models.Report;
 import com.pl2kn.electrobotapi.repositories.ReportRepository;
 import java.util.List;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/reports")
+@CrossOrigin(origins = "https://electro-bot-ui.herokuapp.com/")
 public class ReportController {
 
   private final ReportRepository reportRepository;
