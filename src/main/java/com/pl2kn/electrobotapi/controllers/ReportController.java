@@ -4,7 +4,6 @@ import com.pl2kn.electrobotapi.exceptions.ReportNotFoundException;
 import com.pl2kn.electrobotapi.models.Report;
 import com.pl2kn.electrobotapi.repositories.ReportRepository;
 import java.util.List;
-import java.util.Optional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
